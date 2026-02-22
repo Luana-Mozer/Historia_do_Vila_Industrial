@@ -1,6 +1,6 @@
 # Projeto de extenção de Engenharia de Software
 ## PROJETO VILA INDUSTRIAL: MEMÓRIA E COMUNIDADE
-### [Acesse](https://luana-mozer.github.io/Historia_do_Vila_Industrial/)
+### [Acesse o site](https://luana-mozer.github.io/Historia_do_Vila_Industrial/)
 O Portal da Vila Industrial é um site desenvolvido como projeto de extensão universitária por mim Luana Mozer, da Faculdade Anhanguera, com o objetivo de preservar a memória do bairro Vila Industrial, localizado na Zona Leste de São Paulo, e fortalecer os laços comunitários por meio da tecnologia.
 
 O trabalho consistiu na criação de um site completo, com código 100% original em HTML, CSS e JavaScript, estruturado em sete abas temáticas. A página inicial apresenta um fluxograma interativo com a linha do tempo completa do bairro, de 1920 a 2026, destacando marcos como a fundação da fábrica têxtil, a construção das vilas operárias, a chegada do asfalto, o tombamento da chaminé como patrimônio histórico e a recente revitalização cultural.
@@ -13,7 +13,7 @@ O site foi desenvolvido com design responsivo, garantindo acesso por celulares, 
 
 Além do código, o projeto incluiu pesquisa histórica com moradores, consulta a artigos acadêmicos sobre bairros industriais e referências da Biblioteca Virtual do Estado de São Paulo. O resultado é uma ferramenta acessível que documenta a história do bairro, valoriza o patrimônio local e incentiva a participação comunitária.
 
-O site está disponível online por meio de QR Code para divulgação em panfletos e cartazes, e todo o código foi documentado nesse README detalhado, explicando passo a passo da codificação, estrutura de pastas e orientações para personalização. O projeto cumpre seu papel social ao registrar a memória de um bairro operário e oferecer à comunidade um espaço virtual de pertencimento e informação.
+O site está disponível online por meio de QR Code <img width="50" height="50" alt="Image" src="https://github.com/user-attachments/assets/40ae54fe-2ed0-4524-9dd3-042988eecb9d" /> para divulgação em panfletos e cartazes, e todo o código foi documentado nesse README detalhado, explicando passo a passo da codificação, estrutura de pastas e orientações para personalização. O projeto cumpre seu papel social ao registrar a memória de um bairro operário e oferecer à comunidade um espaço virtual de pertencimento e informação.
 
 
 # 👩‍💻 PASSO A PASSO DA CODIFICAÇÃO DO SITE DA VILA INDUSTRIAL
@@ -431,6 +431,7 @@ Netlify para publicação rápida
 
 ### 6.2 QR Code
 Geramos um QR Code que direciona para o site, para ser impresso em panfletos e cartazes distribuidos pelo bairro.
+<img width="500" height="700" alt="Image" src="https://github.com/user-attachments/assets/6338dd2c-6e71-406f-81a0-4520992b3a50" />
 
 ### 6.3 Documentação
 Criamos este README detalhado para que outros possam entender, replicar ou contribuir com o projeto.
@@ -451,6 +452,6 @@ Design atrativo que valoriza a identidade do bairro
 O resultado é uma ferramenta poderosa de preservação da memória e fortalecimento comunitário.
 
 
-## ⏱️ Tempo de desenvolvimento: Aproximadamente 2 semanas (pesquisa + codificação + testes + documentação)
+### ⏱️ Tempo de desenvolvimento: Aproximadamente 2 semanas (pesquisa + codificação + testes + documentação)
 
-## 👥 Público-alvo: Moradores, pesquisadores, estudantes e visitantes da Vila Industrial
+### 👥 Público-alvo: Moradores, pesquisadores, estudantes e visitantes da Vila Industrial
