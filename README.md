@@ -1,5 +1,6 @@
 # Projeto de extenção de Engenharia de Software
 ## PROJETO VILA INDUSTRIAL: MEMÓRIA E COMUNIDADE
+### [Acesse](https://luana-mozer.github.io/Historia_do_Vila_Industrial/)
 O Portal da Vila Industrial é um site desenvolvido como projeto de extensão universitária por mim Luana Mozer, da Faculdade Anhanguera, com o objetivo de preservar a memória do bairro Vila Industrial, localizado na Zona Leste de São Paulo, e fortalecer os laços comunitários por meio da tecnologia.
 
 O trabalho consistiu na criação de um site completo, com código 100% original em HTML, CSS e JavaScript, estruturado em sete abas temáticas. A página inicial apresenta um fluxograma interativo com a linha do tempo completa do bairro, de 1920 a 2026, destacando marcos como a fundação da fábrica têxtil, a construção das vilas operárias, a chegada do asfalto, o tombamento da chaminé como patrimônio histórico e a recente revitalização cultural.
