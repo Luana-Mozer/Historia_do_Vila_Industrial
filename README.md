@@ -346,13 +346,13 @@ Exibição: Mostra a seção correspondente ao link
 ### 4.1 Pesquisa Histórica
 Realizamos pesquisa com:
 
-Moradores antigos do bairro
+* Moradores antigos do bairro
 
-Documentos da Associação de Moradores
+* Documentos da Associação de Moradores
 
-Artigos acadêmicos sobre bairros industriais
+* Artigos acadêmicos sobre o bairro Vila Industrial
 
-Acervo da Biblioteca Virtual do Estado
+* Acervo da Biblioteca Virtual do Estado
 
 ### 4.2 Linha do Tempo (1920-2026)
 Organizamos cronologicamente os principais eventos:
@@ -368,14 +368,14 @@ html
 <!-- Repetido para cada ano -->
 
 ### 4.3 Coleta de Depoimentos
-Gravamos entrevistas com moradores e transcrevemos, corrigindo a gramática mas mantendo a essência:
+Tivemos entrevistas com moradores:
 
 html
 <div class="testimonial">
     <p>"Moro aqui com meu marido há uns 40 anos. O bairro sempre foi assim calmo, tranquilo, todo mundo se conhece aqui."</p>
     <div class="testimonial-author">
         <div class="author-avatar">MA</div>
-        <div><strong>Maria Aparecida do Carmo</strong><br>Moradora há 40 anos</div>
+        <div><strong>Maria Aparecida do Carmo</strong><br>Moradora há 60 anos</div>
     </div>
 </div>
 
@@ -393,10 +393,6 @@ html
 
 ## 5️⃣ OTIMIZAÇÕES E AJUSTES FINAIS
 ### 5.1 Correção de Erros
-Identificamos e corrigimos:
-
-Linha do tempo: Recolocamos a linha central que havia sumido
-
 Depoimentos: Ajustamos a gramática e pontuação
 
 Mapa: Aumentamos o zoom para mostrar os limites do bairro
@@ -433,7 +429,7 @@ Netlify para publicação rápida
 000webhost como backup
 
 ### 6.2 QR Code
-Geramos um QR Code que direciona para o site, para ser impresso em panfletos e cartazes espalhados pelo bairro.
+Geramos um QR Code que direciona para o site, para ser impresso em panfletos e cartazes distribuidos pelo bairro.
 
 ### 6.3 Documentação
 Criamos este README detalhado para que outros possam entender, replicar ou contribuir com o projeto.
@@ -447,11 +443,11 @@ CSS modular com design responsivo
 
 JavaScript funcional para interatividade
 
-Conteúdo relevante baseado em pesquisa real
+Conteúdo relevante em pesquisa real
 
 Design atrativo que valoriza a identidade do bairro
 
-O resultado é uma ferramenta poderosa de preservação da memória e fortalecimento comunitário, que pode ser facilmente adaptada para outros bairros e comunidades.
+O resultado é uma ferramenta poderosa de preservação da memória e fortalecimento comunitário.
 
 
 ## ⏱️ Tempo de desenvolvimento: Aproximadamente 2 semanas (pesquisa + codificação + testes + documentação)
