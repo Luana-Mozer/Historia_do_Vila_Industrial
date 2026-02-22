@@ -1,5 +1,5 @@
 # Projeto de extenção de Engenharia de Software
-PROJETO VILA INDUSTRIAL: MEMÓRIA E COMUNIDADE
+## PROJETO VILA INDUSTRIAL: MEMÓRIA E COMUNIDADE
 O Portal da Vila Industrial é um site desenvolvido como projeto de extensão universitária por mim Luana Mozer, da Faculdade Anhanguera, com o objetivo de preservar a memória do bairro Vila Industrial, localizado na Zona Leste de São Paulo, e fortalecer os laços comunitários por meio da tecnologia.
 
 O trabalho consistiu na criação de um site completo, com código 100% original em HTML, CSS e JavaScript, estruturado em sete abas temáticas. A página inicial apresenta um fluxograma interativo com a linha do tempo completa do bairro, de 1920 a 2026, destacando marcos como a fundação da fábrica têxtil, a construção das vilas operárias, a chegada do asfalto, o tombamento da chaminé como patrimônio histórico e a recente revitalização cultural.
@@ -15,9 +15,9 @@ Além do código, o projeto incluiu pesquisa histórica com moradores, consulta 
 O site está disponível online por meio de QR Code para divulgação em panfletos e cartazes, e todo o código foi documentado nesse README detalhado, explicando passo a passo da codificação, estrutura de pastas e orientações para personalização. O projeto cumpre seu papel social ao registrar a memória de um bairro operário e oferecer à comunidade um espaço virtual de pertencimento e informação.
 
 
-👩‍💻 PASSO A PASSO DA CODIFICAÇÃO DO SITE DA VILA INDUSTRIAL
-1️⃣ PLANEJAMENTO INICIAL E ESTRUTURA HTML
-1.1 Definição da Arquitetura do Site
+# 👩‍💻 PASSO A PASSO DA CODIFICAÇÃO DO SITE DA VILA INDUSTRIAL
+## 1️⃣ PLANEJAMENTO INICIAL E ESTRUTURA HTML
+### 1.1 Definição da Arquitetura do Site
 O primeiro passo foi planejar a estrutura completa do site, definindo quais abas seriam necessárias para contar a história do bairro de forma completa e útil para a comunidade. Decidimos por 7 abas principais:
 
 Início: Linha do tempo em formato de fluxograma
@@ -34,7 +34,7 @@ ONGs: Organizações locais
 
 Lazer: Opções de entretenimento
 
-1.2 Criação do Esqueleto HTML
+### 1.2 Criação do Esqueleto HTML
 Começamos com a estrutura básica de um documento HTML5:
 
 html
@@ -50,7 +50,9 @@ html
     <!-- Conteúdo do site -->
 </body>
 </html>
-1.3 Desenvolvimento do Cabeçalho e Navegação
+<br>
+
+### 1.3 Desenvolvimento do Cabeçalho e Navegação
 Criamos um header fixo com sticky positioning para que o menu permaneça visível durante a rolagem:
 
 html
@@ -68,8 +70,9 @@ html
             </ul>
         </nav>
     </div>
-</header>
-1.4 Estruturação das Seções
+</header><br>
+
+### 1.4 Estruturação das Seções
 Cada aba foi criada como uma seção com um ID único e a classe "section". A primeira seção recebe a classe "active-section" para aparecer inicialmente:
 
 html
@@ -80,8 +83,9 @@ html
 <section id="curiosidades" class="section">
     <!-- Conteúdo das curiosidades -->
 </section>
-2️⃣ ESTILIZAÇÃO COM CSS
-2.1 Reset e Estilos Globais
+
+## 2️⃣ ESTILIZAÇÃO COM CSS<br>
+### 2.1 Reset e Estilos Globais
 Começamos resetando as margens e paddings padrão do navegador e definindo a fonte base:
 
 css
@@ -97,7 +101,7 @@ body {
     color: #333;
     line-height: 1.6;
 }
-2.2 Definição da Paleta de Cores
+### 2.2 Definição da Paleta de Cores
 Escolhemos cores que remetem à temática industrial:
 
 Laranja (#e65100): Cor principal, usada em detalhes e hover
@@ -108,7 +112,7 @@ Cinza claro (#f4f4f4): Fundo do site
 
 Branco: Cards e elementos de destaque
 
-2.3 Estilização do Cabeçalho e Menu
+### 2.3 Estilização do Cabeçalho e Menu
 css
 header {
     background: linear-gradient(135deg, #455a64 0%, #2c3e50 100%);
@@ -138,7 +142,7 @@ nav ul li a.active {
     background: #e65100;
     transform: translateY(-2px);
 }
-2.4 Criação dos Cards e Elementos Comuns
+### 2.4 Criação dos Cards e Elementos Comuns
 Desenvolvemos um padrão de cards que se repete em várias seções:
 
 css
@@ -166,7 +170,7 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
 }
-2.5 Implementação do Sistema de Abas
+### 2.5 Implementação do Sistema de Abas
 Criamos a lógica visual para mostrar apenas a seção ativa:
 
 css
@@ -183,7 +187,7 @@ css
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
-2.6 Desenvolvimento do Fluxograma
+### 2.6 Desenvolvimento do Fluxograma
 A parte mais desafiadora foi criar o fluxograma interativo. Usamos uma estrutura flexível com setas entre os itens:
 
 css
@@ -221,7 +225,7 @@ css
     color: #e65100;
     font-size: 2rem;
 }
-2.7 Estilização do Mapa
+### 2.7 Estilização do Mapa
 Configuramos o container do mapa e os cards de informações geográficas:
 
 css
@@ -245,7 +249,7 @@ css
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
-2.8 Cards Temáticos
+## 2.8 Cards Temáticos
 Cada seção ganhou estilos específicos:
 
 css
@@ -282,7 +286,7 @@ css
     border-radius: 15px;
     display: inline-block;
 }
-2.9 Responsividade com Media Queries
+### 2.9 Responsividade com Media Queries
 Garantimos que o site funcione em todos os dispositivos:
 
 css
@@ -309,8 +313,8 @@ css
         height: 350px;
     }
 }
-3️⃣ INTERATIVIDADE COM JAVASCRIPT
-3.1 Sistema de Navegação entre Abas
+## 3️⃣ INTERATIVIDADE COM JAVASCRIPT
+### 3.1 Sistema de Navegação entre Abas
 O JavaScript gerencia a troca de abas quando o usuário clica no menu:
 
 javascript
@@ -330,10 +334,7 @@ document.querySelectorAll('.nav-link').forEach(link => {
         document.getElementById(sectionId).classList.add('active-section');
     });
 });
-3.2 Lógica de Funcionamento
-Event Listener: Aguarda o clique em qualquer link do menu
-
-Prevenção: Impede o comportamento padrão do link (#)
+### 3.2 Lógica de Funcionamento
 
 Limpeza: Remove todas as classes ativas
 
@@ -341,8 +342,8 @@ Ativação: Adiciona classe ativa ao link clicado
 
 Exibição: Mostra a seção correspondente ao link
 
-4️⃣ CONTEÚDO E INFORMAÇÕES
-4.1 Pesquisa Histórica
+## 4️⃣ CONTEÚDO E INFORMAÇÕES
+### 4.1 Pesquisa Histórica
 Realizamos pesquisa com:
 
 Moradores antigos do bairro
@@ -353,7 +354,7 @@ Artigos acadêmicos sobre bairros industriais
 
 Acervo da Biblioteca Virtual do Estado
 
-4.2 Linha do Tempo (1920-2026)
+### 4.2 Linha do Tempo (1920-2026)
 Organizamos cronologicamente os principais eventos:
 
 html
@@ -365,7 +366,8 @@ html
     </div>
 </div>
 <!-- Repetido para cada ano -->
-4.3 Coleta de Depoimentos
+
+### 4.3 Coleta de Depoimentos
 Gravamos entrevistas com moradores e transcrevemos, corrigindo a gramática mas mantendo a essência:
 
 html
@@ -376,7 +378,8 @@ html
         <div><strong>Maria Aparecida do Carmo</strong><br>Moradora há 40 anos</div>
     </div>
 </div>
-4.4 Mapeamento Geográfico
+
+### 4.4 Mapeamento Geográfico
 Configuramos o Google Maps com as coordenadas exatas do bairro:
 
 html
@@ -387,8 +390,9 @@ html
     style="border:0;" 
     allowfullscreen="">
 </iframe>
-5️⃣ OTIMIZAÇÕES E AJUSTES FINAIS
-5.1 Correção de Erros
+
+## 5️⃣ OTIMIZAÇÕES E AJUSTES FINAIS
+### 5.1 Correção de Erros
 Identificamos e corrigimos:
 
 Linha do tempo: Recolocamos a linha central que havia sumido
@@ -399,34 +403,27 @@ Mapa: Aumentamos o zoom para mostrar os limites do bairro
 
 Responsividade: Ajustamos para telas muito pequenas
 
-5.2 Testes em Múltiplos Navegadores
+### 5.2 Testes em Múltiplos Navegadores
 Testamos o site em:
 
 ✅ Google Chrome
 
-✅ Mozilla Firefox
-
 ✅ Microsoft Edge
-
-✅ Safari (iOS)
 
 ✅ Chrome (Android)
 
-5.3 Validação de Código
+### 5.3 Validação de Código
 Verificamos:
 
-✅ HTML válido (W3C Validator)
+✅ HTML 
 
-✅ CSS sem propriedades obsoletas
+✅ CSS 
 
-✅ JavaScript sem erros no console
+✅ JavaScript 
 
-✅ Links funcionando
 
-✅ Imagens carregando
-
-6️⃣ PUBLICACÃO E DIVULGAÇÃO
-6.1 Hospedagem
+## 6️⃣ PUBLICACÃO E DIVULGAÇÃO
+### 6.1 Hospedagem
 Disponibilizamos o site em plataformas gratuitas:
 
 GitHub Pages para versionamento
@@ -435,13 +432,13 @@ Netlify para publicação rápida
 
 000webhost como backup
 
-6.2 QR Code
+### 6.2 QR Code
 Geramos um QR Code que direciona para o site, para ser impresso em panfletos e cartazes espalhados pelo bairro.
 
-6.3 Documentação
+### 6.3 Documentação
 Criamos este README detalhado para que outros possam entender, replicar ou contribuir com o projeto.
 
-🎯 CONCLUSÃO
+## 🎯 CONCLUSÃO
 O site da Vila Industrial foi desenvolvido seguindo as melhores práticas de desenvolvimento web:
 
 HTML semântico para acessibilidade e SEO
@@ -456,18 +453,7 @@ Design atrativo que valoriza a identidade do bairro
 
 O resultado é uma ferramenta poderosa de preservação da memória e fortalecimento comunitário, que pode ser facilmente adaptada para outros bairros e comunidades.
 
-📌 Tecnologias utilizadas:
 
-HTML5
+## ⏱️ Tempo de desenvolvimento: Aproximadamente 2 semanas (pesquisa + codificação + testes + documentação)
 
-CSS3 (Flexbox, Grid, Animações)
-
-JavaScript Vanilla
-
-Google Maps Embed API
-
-Placeholder images para teste
-
-⏱️ Tempo de desenvolvimento: Aproximadamente 2 semanas (pesquisa + codificação + testes + documentação)
-
-👥 Público-alvo: Moradores, pesquisadores, estudantes e visitantes da Vila Industrial
+## 👥 Público-alvo: Moradores, pesquisadores, estudantes e visitantes da Vila Industrial
