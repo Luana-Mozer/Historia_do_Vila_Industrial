@@ -16,6 +16,7 @@ Além do código, o projeto incluiu pesquisa histórica com moradores, consulta 
 
 O site está disponível online por meio de QR Code <img width="50" height="50" alt="Image" src="https://github.com/user-attachments/assets/40ae54fe-2ed0-4524-9dd3-042988eecb9d" /> para divulgação em panfletos e cartazes, e todo o código foi documentado nesse README detalhado, explicando passo a passo da codificação, estrutura de pastas e orientações para personalização. O projeto cumpre seu papel social ao registrar a memória de um bairro operário e oferecer à comunidade um espaço virtual de pertencimento e informação.
 
+[Veja o vídeo do projeto](https://www.youtube.com/watch?v=374FWJPKnTg&t=1s)
 
 # 👩‍💻 PASSO A PASSO DA CODIFICAÇÃO DO SITE DA VILA INDUSTRIAL
 ## 1️⃣ PLANEJAMENTO INICIAL E ESTRUTURA HTML
